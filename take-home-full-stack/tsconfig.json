@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node16-strictest/tsconfig.json",
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "swc": true
+  },
+  "compilerOptions": {
+    "outDir": "build"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "tests/**/*.ts"
+  ]
+}
